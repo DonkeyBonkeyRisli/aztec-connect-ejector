@@ -15,7 +15,7 @@ To exit your funds from the old.zk.money, you will have to run a few commands on
 docker run -ti --rm --net=host -e PRIVATE_KEY=<key> aztecprotocol/ac-ejector
 ```
 
-This launches a container exposing the rollup (we call it Falafel) on port 8081, and zk.money the website, on port 3001. The private key associated with your account must have enough funds to pay the cost of a rollup. Once Falafel has bootstrapped, zk-money will be served on your device, at http://localhost:3001 You can now use zk.money as usual. You will need to wait for your account to sync in the browser.
+This launches a container exposing the rollup (we call it Falafel) on port 8081, and zk.money the website, on port 80. The private key associated with your account must have enough funds to pay the cost of a rollup. Once Falafel has bootstrapped, zk-money will be served on your device, at http://localhost You can now use zk.money as usual. You will need to wait for your account to sync in the browser.
 
 Specifying gas limit and max fee:
 
