@@ -30,3 +30,7 @@ docker run -ti --rm --net=host -e GAS_LIMIT=3000000 -e MAX_PROVIDER_GAS_PRICE=20
 If you are running in a codespace, you may need to manually update the machine type for better performance. I recommending choosing the largest machine that you can, so that it runs as smoothly as possible.
 
 ![](./screenshot.png)
+
+You may also need to set the port visibility to `public` on port 8081 in the Codespace Ports tab.
+
+![](./port.png)
