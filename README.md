@@ -9,7 +9,7 @@ Requirements
 
 ### Ejecting
 
-To exit your funds from the old.zk.money, you will have to run a few commands on your device to get an instance of the rollup running so you can interact with it to withdraw funds. First, open the command-line interface on your device. Then, copy the following command directly into the CLI and press enter:
+To exit your funds from the zk.money, you will have to run a few commands on your device to get an instance of the rollup running so you can interact with it to withdraw funds. First, open the command-line interface on your device. Then, copy the following command directly into the CLI and press enter:
 
 ```bash
 docker run -ti --rm --net=host -e PRIVATE_KEY=<key> aztecprotocol/ac-ejector
