@@ -8,7 +8,7 @@ Requirements
 
 ### Ejecting
 
-You can find a video walkthrough of using the ejector with a Github Codespace [here](https://youtu.be/hBxQeSd2AnU).
+You can find a video walkthrough of using the ejector with a Github Codespace [here](https://youtu.be/5SSJMhz1zRw).
 
 To exit your funds from the zk.money, you will have to run a few commands on your device to get an instance of the rollup running so you can interact with it to withdraw funds. First, open the command-line interface on your device. Then, copy the following command directly into the CLI and press enter:
 
