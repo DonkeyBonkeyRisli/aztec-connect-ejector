@@ -3,8 +3,8 @@
   "forwardPorts": [8081],
   "hostRequirements": {
     "cpus": 16,
-    "memory": "64gb",
-    "storage": "128gb"
+    "memory": "16gb",
+    "storage": "32gb"
   },
   "customizations": {
     "codespaces": {
